@@ -23,7 +23,7 @@ jobs:
       - name: Install NPM Dependencies
         run: npm i
       - name: Build Project
-        run: npm run build:dev
+        run: npm run build
         env:
          CI: false
           
